@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/img/fondo\ casino); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.slot-machine {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reels {
+    display: flex;
+    margin-top: 20px;
+}
+
+.reel {
+    width: 100px;
+    height: 150px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    background-color: #fff;
+    background-size: cover;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
