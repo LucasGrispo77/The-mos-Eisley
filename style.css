@@ -5,7 +5,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url(/img/fondo\ casino); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
+    background-image: url(/img/fondo\ casino); 
     background-size: cover;
     background-position: center;
 }

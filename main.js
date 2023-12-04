@@ -2,25 +2,25 @@
 //Algoritmo con un condicional 
 
 
-//let hora = prompt("Ingrese la hora")
+let hora = prompt("Ingrese la hora")
 
-//if (hora >= 6 && hora < 12) {
+if (hora >= 6 && hora < 12) {
 
-//    alert ("Buenos dias")
+    alert ("Buenos dias")
 
-//}  else if (hora >= 12 && hora < 20) {
+}  else if (hora >= 12 && hora < 20) {
 
-///    alert ("Buenas tardes")
+    alert ("Buenas tardes")
 
-//}  else if (hora >=20 && hora < 00 ){
+}  else if (hora >=20 && hora < 00 ){
 
-//    alert ("Buenas noches") 
+    alert ("Buenas noches") 
 
-//}  else {
+}  else {
     
-//    alert ("ANDÁ A DORMIR")
+    alert ("ANDÁ A DORMIR")
 
-//}
+}
 
 
 
@@ -31,38 +31,16 @@
 
 //Algortimo con un ciclo
 
-//let diaDeLaSemana = Number(prompt("Ingrese dia de la semana"));
+let x = 0;
 
-//switch (diaDeLaSemana) {
-//    case 1:
-//        alert("Lunes");
-//        break;
+while (x<10) {
+
+    console.log("Ciclo número" + x);
+    alert("ahora el x vale" + x);
+    x = x + 1;
     
-//    case 2:
-//        alert("Martes");
-//        break;
-//    case 3:
-//        alert("Miércoles");
-//        break;
-        
-//    case 4:
-//        alert("Jueves");
-//       break;
-            
-//    case 5:
-//        alert("Viernes");
-//        break;
-            
-//   case 6:
-//        alert("Sábado");
-//        break;
-//    case 7:
-//        alert("Domingo");
-//        break;    
-//    default:
-//        alert("Ese día no existe");
-//        break;
-//}
+}
+
                       
             
     
