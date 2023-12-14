@@ -1,25 +1,23 @@
 body {
-    font-family: 'Arial', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url(/img/fondo\ casino); 
+    background-image: url('/img/casino.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
-.slot-machine {
+#slot-machine {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
 }
 
-.reels {
+#reel-container {
     display: flex;
-    margin-top: 20px;
 }
 
 .reel {
@@ -27,11 +25,9 @@ body {
     height: 150px;
     border: 1px solid #000;
     margin: 0 10px;
-    background-color: #fff;
-    background-size: cover;
 }
 
-button {
+#spin-btn {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
