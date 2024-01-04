@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina Tragamonedas</title>
     <link rel="stylesheet" href="/style.css">
-    <title>Casino Interactivo</title>
 </head>
 <body>
-    <div id="slot-machine">
-        <div id="reel-container">
-            <div class="reel" id="reel1"></div>
-            <div class="reel" id="reel2"></div>
-            <div class="reel" id="reel3"></div>
-        </div>
-        <button id="spin-btn" onclick="spin()">Spin</button>
+
+<div id="slot-machine">
+    <div class="reel-container">
+        <div class="reel" id="reel1"></div>
+        <div class="reel" id="reel2"></div>
+        <div class="reel" id="reel3"></div>
     </div>
-    <script src="/main.js"></script>
+    <button id="spin-btn" disabled>Girar</button>
+    <p id="result-message"></p>
+</div>
+
+<script src="/main.js"></script>
+
 </body>
 </html>
