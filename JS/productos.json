@@ -1,0 +1,53 @@
+[   
+    {
+        "id": "Nave-01",
+        "titulo": "Nave 01",
+        "imagen": "./img/Nave01.png",
+        "categoria": {
+            "nombre": "Nave",
+            "id": "Nave"
+        },
+        "precio": 3000000
+    },
+    {
+        "id": "Nave-02",
+        "titulo": "Nave 02",
+        "imagen": "./img/Nave02.png",
+        "categoria": {
+            "nombre": "Nave",
+            "id": "Nave"
+        },
+        "precio": 5000000
+    },
+    {
+        "id": "Nave-03",
+        "titulo": "Nave 03",
+        "imagen": "./img/Nave03.jpg",
+        "categoria": {
+            "nombre": "Nave",
+            "id": "Nave"
+        },
+        "precio": 7500000
+    },
+    {
+        "id": "Nave-04",
+        "titulo": "Nave 04",
+        "imagen": "./img/Nave04.jpg",
+        "categoria": {
+            "nombre": "Nave",
+            "id": "Nave"
+        },
+        "precio": 1000000
+    },
+    {
+        "id": "Nave-05",
+        "titulo": "Nave 05",
+        "imagen": "./img/Nave05.jpg",
+        "categoria": {
+            "nombre": "Nave",
+            "id": "Nave"
+        },
+        "precio": 1000000000000
+    }
+
+]
