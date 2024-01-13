@@ -76,7 +76,7 @@ function eliminarDelCarrito(e) {
         text: "Producto eliminado",
         duration: 3000,
         close: true,
-        gravity: "top",
+        gravity: "top", 
         position: "right", 
         stopOnFocus: true, 
         style: {

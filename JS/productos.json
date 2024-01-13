@@ -1,53 +1,84 @@
-[   
+[
     {
-        "id": "Nave-01",
+        "id": "Naves-01",
         "titulo": "Nave 01",
-        "imagen": "./img/Nave01.png",
+        "imagen": "img/Nave republica 01.png",
         "categoria": {
-            "nombre": "Nave",
-            "id": "Nave"
+            "nombre": "Robadas de la republica",
+            "id": "Republica"
         },
-        "precio": 3000000
+        "precio": 100000
     },
     {
-        "id": "Nave-02",
+        "id": "Naves-02",
         "titulo": "Nave 02",
-        "imagen": "./img/Nave02.png",
+        "imagen": "img/Nave republica 02.png",
         "categoria": {
-            "nombre": "Nave",
-            "id": "Nave"
+            "nombre": "Robadas de la republica",
+            "id": "Republica"
         },
-        "precio": 5000000
+        "precio": 150000
     },
     {
-        "id": "Nave-03",
+        "id": "Naves-03",
         "titulo": "Nave 03",
-        "imagen": "./img/Nave03.jpg",
+        "imagen": "img/Nave republica 03.png",
         "categoria": {
-            "nombre": "Nave",
-            "id": "Nave"
+            "nombre": "Robadas de la republica",
+            "id": "Republica"
         },
-        "precio": 7500000
+        "precio": 200000
     },
     {
-        "id": "Nave-04",
+        "id": "Naves-04",
         "titulo": "Nave 04",
-        "imagen": "./img/Nave04.jpg",
+        "imagen": "img/Nave Republica 04.png",
         "categoria": {
-            "nombre": "Nave",
-            "id": "Nave"
+            "nombre": "Robadas de la republica",
+            "id": "Republica"
         },
-        "precio": 1000000
+        "precio": 400000000
     },
     {
-        "id": "Nave-05",
-        "titulo": "Nave 05",
-        "imagen": "./img/Nave05.jpg",
+        "id": "Naves-01",
+        "titulo": "Nave 01",
+        "imagen": "img/Nave 01.png",
         "categoria": {
-            "nombre": "Nave",
-            "id": "Nave"
+            "nombre": "Robadas del imperio",
+            "id": "imperio"
         },
-        "precio": 1000000000000
+        "precio": 10000
+    },
+    {
+        "id": "Naves-02",
+        "titulo": "Nave 02",
+        "imagen": "img/Nave 02.png",
+        "categoria": {
+            "nombre": "Robadas del imperio",
+            "id": "imperio"
+        },
+        "precio": 200000000
+    },
+    {
+        "id": "Naves-03",
+        "titulo": "Nave 03",
+        "imagen": "img/Nave 03.png",
+        "categoria": {
+            "nombre": "Robadas del imperio",
+            "id": "imperio"
+        },
+        "precio": 300000
+    },
+    {
+        "id": "Naves-04",
+        "titulo": "Nave 04",
+        "imagen": "img/Nave 04.png",
+        "categoria": {
+            "nombre": "Robadas del imperio",
+            "id": "imperio"
+        },
+        "precio": 4000000
     }
+
 
 ]

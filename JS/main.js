@@ -1,6 +1,6 @@
 let productos = [];
 
-fetch("./js/productos")
+fetch("./js/productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;
@@ -89,7 +89,7 @@ function agregarAlCarrito(e) {
         duration: 3000,
         close: true,
         gravity: "top", 
-        position: "right",
+        position: "right", 
         stopOnFocus: true, 
         style: {
           background: "linear-gradient(to right, #4b33a8, #785ce9)",
@@ -99,7 +99,7 @@ function agregarAlCarrito(e) {
         },
         offset: {
             x: '1.5rem', 
-            y: '1.5rem' 
+            y: '1.5rem'
           },
         onClick: function(){} 
       }).showToast();

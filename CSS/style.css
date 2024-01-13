@@ -31,7 +31,8 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--clr-main);
+    background-color:var(--clr-main-light);
+
 }
 
 aside {
@@ -125,7 +126,7 @@ aside {
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: ececec;
     font-size: .85rem;
 }
 
